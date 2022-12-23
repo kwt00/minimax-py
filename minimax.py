@@ -182,7 +182,7 @@ def main():
         cleaner()
         print(f"computer turn [{c_choice}]")
         render(board,c_choice,h_choice)
-        print('You got clapped!')
+        print('You lost!')
     else:
         cleaner()
         render(board,c_choice,h_choice)
